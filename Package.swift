@@ -5,7 +5,7 @@ let version = "1.0.0"
 let base    = "https://github.com/OpenVision3/bodytracking/releases/download/\(version)"
 
 let package = Package(
-    name: "BodyTracking",
+    name: "bodydata",
     platforms: [.macOS(.v13), .iOS(.v16)],
     products: [
         .library(name: "Core", targets: ["Core"]),
