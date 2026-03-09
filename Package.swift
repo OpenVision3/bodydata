@@ -8,8 +8,8 @@ let package = Package(
     name: "BodyTracking",
     platforms: [.macOS(.v13), .iOS(.v16)],
     products: [
-        .library(name: "Core", type: .dynamic, targets: ["Core"]),
-        .library(name: "File", type: .dynamic, targets: ["File"]),
+        .library(name: "Core", targets: ["Core"]),
+        .library(name: "File", targets: ["File"]),
     ],
     targets: [
         .binaryTarget(
