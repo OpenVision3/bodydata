@@ -1,7 +1,7 @@
 // swift-tools-version: 5.9
 import PackageDescription
 
-let version = "1.0.0"
+let version = "1.0.2"
 let base    = "https://github.com/OpenVision3/bodytracking/releases/download/\(version)"
 
 let package = Package(
@@ -15,12 +15,12 @@ let package = Package(
         .binaryTarget(
             name: "Core",
             url: "\(base)/Core.xcframework.zip",
-            checksum: "761afff7d32d36579baad1d48ece9fd34f3aa2635851b6818e01c2dc9660e32e"
+            checksum: "4e8b539a09d3cf54549fcd0080e1f541a27cfee25c25729a59637dce2f2902c6"
         ),
         .binaryTarget(
             name: "File",
             url: "\(base)/File.xcframework.zip",
-            checksum: "d98cf82d70613da68f8499d1756227078cd890772cf8b8cb2393a2eea29e3c28"
+            checksum: "5635c0fc92105ed6c23b25a4b40f2c112b94bf3f4dacfa33e2d4fb0837669601"
         ),
     ]
 )
